@@ -2,15 +2,15 @@
 movement = MOVE;
 
 //Dash
-if (obj_input.dash_key){
-     if (obj_player_stats.stamina >= DASH_COST){
-        audio_play_sound(snd_dash, 8, false);
-        state = scr_dash_state;
-        alarm[0] = room_speed / 6;
-        obj_player_stats.stamina -= DASH_COST;
-        obj_player_stats.alarm[0] = room_speed * 5;
-    }
-}
+//if (obj_input.dash_key){
+  //   if (obj_player_stats.stamina >= DASH_COST){
+    //    audio_play_sound(snd_dash, 8, false);
+      //  state = scr_dash_state;
+        //alarm[0] = room_speed / 6;
+        //obj_player_stats.stamina -= DASH_COST;
+        //obj_player_stats.alarm[0] = room_speed * 5;
+   // }
+//}
 
 
 // Attack
